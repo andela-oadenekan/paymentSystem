@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Order:</legend>
+			<label for="amount">Price</label>
+			<input type="text" required name="amount"
+			placeholder="amount"/><br>
+			
+			<label for="currency">Currency</label>
+			<select>
+				<option name="currency" repeat="currency in currencies">
+
+				</option>
+			</select><br>
+
+			<label for="currency">Full Name</label>	
+			<input type="text" required placeholder="surname"/>
+			<input type="text" required placeholder="firstname"/>
+			<input type="text" required placeholder="othername"/>
+			</fieldset>
+
+			<fieldset>
+				<legend>Payment Section:</legend>
+			<input type="text" required name="amount"
+			placeholder="credit card holder name"/><br>
+
+			<input type="text" required placeholder="credit card number">
+			Expiration Date <input type="text" required placeholder="credit card expiration"> mm/
+			<input type="text" required placeholder="credit card expiration"> yy <br>
+
+			<input type="text" required placeholder="credit card ccv" maxlength="3"><br>
+			<button>Submit</button>
+			</fieldset>
+		</form>
+		<script type="text/javascript" src=/js/main.js></script>
+	</body>
+	
+</html>

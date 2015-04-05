@@ -1,0 +1,8 @@
+{
+  "name": "paymentSystem",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.12.3",
+    "paypal-rest-sdk": "^1.5.2"
+  }
+}
